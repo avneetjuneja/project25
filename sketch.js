@@ -29,9 +29,6 @@ function setup(){
 function draw(){
     background(0);
     Engine.update(engine);
-
-    //text(mouseX+","+mouseY,200,200);
-
     
     ground.display();
     crumpledPaper.display();
